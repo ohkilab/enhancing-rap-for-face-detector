@@ -105,7 +105,7 @@
                 </span> -->
 
               <!-- Github link -->
-              <span class="link-block">
+              <!-- <span class="link-block">
                 <a href="https://github.com/ohkilab/labellessface_code" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -113,7 +113,7 @@
                   </span>
                   <span>Code</span>
                 </a>
-              </span>
+              </span> -->
 
               <!-- ArXiv abstract Link -->
               <span class="link-block">
@@ -178,7 +178,7 @@
                 </p>
               </div>
               <center>
-                <img src="static/images/method_struct.pdf" alt="Overview of proposed patch generation method"
+                <img src="static/images/method_struct.svg" alt="Overview of proposed patch generation method"
                   class="center-image">
               </center>
             </div>
@@ -229,7 +229,7 @@
                   and $\theta_F$.
                 </p>
                 <center>
-                  <img src="static/images/loss.pdf" alt="Overview of Borderline False Positive Loss"
+                  <img src="static/images/loss.svg" alt="Overview of Borderline False Positive Loss"
                     class="center-image">
                 </center>
               </div>
@@ -253,6 +253,9 @@
                   patch generation. The parameter determining the face-to-patch area ratio in the scaling process was
                   $\alpha = 5.58$, and the two parameters of the loss function were $\theta_F = 0.3$ and $\theta_T =
                   0.9$ respectively. For comparison, use Dpatch and the patch from Lee et al.
+                  Note that these experimental results were derived from hyperparameter
+                  optimization performed after submission of the paper and are <strong>different
+                  from the experimental results in the paper</strong>.
                 </p>
                 <center>
                   <p style="width:480px; min-width:75%; text-align:left; margin-bottom:0; font-size:0.8em">
@@ -279,10 +282,7 @@
               <h2 class="title is-3">Slide</h2>
               <div class="level-set has-text-justified">
                 <center>
-                  <iframe
-                    src="https://www.slideshare.net/slideshow/embed_code/key/dQWlyq5JAw9F0h?hostedIn=slideshare&page=upload"
-                    width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no">
-                  </iframe>
+                  <iframe src="https://www.slideshare.net/slideshow/embed_code/key/262SCYf6oa46kk?hostedIn=slideshare&page=upload" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
                 </center>
               </div>
             </div>
@@ -294,7 +294,7 @@
   <!--End Slide -->
 
   <!-- Paper poster -->
-  <section class="section hero is-small is-light" id="Content5">
+  <!-- <section class="section hero is-small is-light" id="Content5">
     <div class="hero-body">
       <div class="container is-max-desktop content">
         <div class="columns is-centered">
@@ -310,7 +310,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!--End paper poster -->
 
   <!--BibTex citation -->
@@ -319,10 +319,10 @@
       <div class="container is-max-desktop content">
         <h2 class="title">Citation</h2>
         <pre><code>
-        @inproceedings{ohki2024labellessface,
-          title={LabellessFace: Fair Metric Learning for Face Recognition without Attribute Labels},
-          author={Ohki, Tetsushi and Sato, Yuya and Nishigaki, Masakatsu and Ito, Koichi},
-          booktitle={IEEE International Joint Conference on Biometrics (IJCB 2024)},
+        @inproceedings{okano2024enhancingRAPface,
+          title={Enhancing Remote Adversarial Patch Attacks on Face Detectors with Tiling and Scaling},
+          author={Masora, Okano and Ito, Koichi, and Nishigaki, Masakatsu and Ohki, Tetsushi},
+          booktitle={Proceedings of Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC 2024)},
           year={2024}
         }
       </code></pre>
@@ -337,7 +337,7 @@
       <div class="container is-max-desktop content">
         <h2 class="title">Acknowledgement</h2>
         <p>
-          This work was supported in part by JSPS KAKENHI JP 23K28085, and JST Moonshot R&amp;D Grant Number JPMJMS2215.
+          This work was supported in part by JSPS KAKENHI JP 23H00463, JP 23K28084 and JST Moonshot R\&D Grant Number JPMJMS2215.
         </p>
       </div>
     </div>
